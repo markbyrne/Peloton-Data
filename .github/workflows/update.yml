@@ -40,3 +40,8 @@ jobs:
           PASS: ${{ secrets.PASS }}
         run: |
           python3 peloton-scraper/__init__.py
+          
+      - name: commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automated update
