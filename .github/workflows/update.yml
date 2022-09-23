@@ -34,12 +34,9 @@ jobs:
           python -m pip install --upgrade pip requests
           python -m pip install --upgrade pip os
 
-      - name: Set Credientials
+      - name: Set Credientials / Update Datasets
         env: # Or as an environment variable
           EMAIL: ${{ secrets.EMAIL }}
           PASS: ${{ secrets.PASS }}
-          
-      # Runs a set of commands using the runners shell
-      - name: Update Datasets
         run: |
           python3 peloton-scraper/__init__.py
