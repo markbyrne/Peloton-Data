@@ -11,7 +11,7 @@ import requests
 import pandas as pd
 import os
 
-
+DEBUG = False
 api_url = "https://api.onepeloton.com"
 init_dir = os.path.dirname(os.path.abspath(__file__))
 print(f"init filepath: {init_dir}")
@@ -25,12 +25,14 @@ def get_data(endpoint, payload=None, session=None):
 	end_point = f"/api/{endpoint}"
 
 	response = session.get(f"{api_url}{end_point}", params=payload)
-	print(response)
+	if DEBUG:
+		print(response)
 	if response.status_code < 200 or response.status_code >= 300:
 		raise Exception(f"Bad response: {response.status_code}")
 
 	json = response.json()
-	print(json)
+	if DEBUG:
+		print(json)
 
 	try:
 		total = json["total"]
@@ -85,7 +87,8 @@ def get_instructors():
 	data = get_data("instructor", payload=None)
 	df = pd.DataFrame(data)
 	df.set_index("id", inplace=True)
-	print(df.head(10))
+	if DEBUG:
+		print(df.head(10))
 
 	df.to_csv(path_or_buf=f"{init_dir}/../datasets/instructors.csv")
 
@@ -93,18 +96,19 @@ def get_instructors():
 def get_metadata():
 	data = get_data("ride/metadata_mappings", payload=None)
 
-	print(data.keys())
+	if DEBUG:
+		print(data.keys())
 
 	for key, value in data.items():
-		print(key, value)
+		if DEBUG: print(key, value)
 		df = pd.DataFrame(value)
 
 		try:
 			df.set_index("id", inplace=True)
-			print(df.head(10))
+			if DEBUG: print(df.head(10))
 			df.to_csv(path_or_buf=f"{init_dir}/../datasets/metadata/{key}-metadata.csv")
 		except KeyError:
-			print(df.head(10))
+			if DEBUG: print(df.head(10))
 			df.to_csv(path_or_buf=f"{init_dir}/../datasets/metadata/{key}-metadata.csv", index=False)
 
 
@@ -112,15 +116,15 @@ def get_workouts(s):
 	# {"browse_category": "Cycling"}
 	data = get_data("v2/ride/archived", payload={"limit": "100"}, session=s)
 
-	print(data)
+	if DEBUG: print(data)
 
 	df = pd.DataFrame(data)
 	try:
 		df.set_index("id", inplace=True)
-		print(df.head(10))
+		if DEBUG: print(df.head(10))
 		df.to_csv(path_or_buf=f"{init_dir}/../datasets/workouts.csv")
 	except KeyError:
-		print(df.head(10))
+		if DEBUG: print(df.head(10))
 		df.to_csv(path_or_buf=f"{init_dir}/../datasets/workouts.csv", index=False)
 
 
@@ -131,6 +135,5 @@ if __name__ == "__main__":
 	s = requests.Session()
 	payload = {'username_or_email': os.environ.get('EMAIL'), 'password': os.environ.get('PASS')}
 	s.post('https://api.onepeloton.com/auth/login', json=payload)
-	print(s.headers)
 
 	get_workouts(s)
