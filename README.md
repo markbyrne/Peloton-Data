@@ -17,6 +17,8 @@ Main datasets are instructors.csv and workouts.csv. Any '_id' in instructors or 
     metadata/class_types-metadata.csv
     bf6639f2e50a4f0395cb1479542ed4bd,Climb,Climb,cycling,True,107
     
+### Updated
+Datasets will update weekly at 00:00 UTC on Sunday morning.
 
 ### Sources
 https://github.com/geudrik/peloton-client-library/blob/master/API_DOCS.md

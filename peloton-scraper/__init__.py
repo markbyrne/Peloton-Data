@@ -13,6 +13,8 @@ import os
 
 
 api_url = "https://api.onepeloton.com"
+init_dir = os.path.dirname(os.path.abspath(__file__))
+print(f"init filepath: {init_dir}")
 
 
 def get_data(endpoint, payload=None, session=None):
@@ -85,7 +87,7 @@ def get_instructors():
 	df.set_index("id", inplace=True)
 	print(df.head(10))
 
-	df.to_csv(path_or_buf=f"../datasets/instructors.csv")
+	df.to_csv(path_or_buf=f"{init_dir}/../datasets/instructors.csv")
 
 
 def get_metadata():
@@ -100,10 +102,10 @@ def get_metadata():
 		try:
 			df.set_index("id", inplace=True)
 			print(df.head(10))
-			df.to_csv(path_or_buf=f"../datasets/metadata/{key}-metadata.csv")
+			df.to_csv(path_or_buf=f"{init_dir}/../datasets/metadata/{key}-metadata.csv")
 		except KeyError:
 			print(df.head(10))
-			df.to_csv(path_or_buf=f"../datasets/metadata/{key}-metadata.csv", index=False)
+			df.to_csv(path_or_buf=f"{init_dir}/../datasets/metadata/{key}-metadata.csv", index=False)
 
 
 def get_workouts(s):
@@ -116,19 +118,19 @@ def get_workouts(s):
 	try:
 		df.set_index("id", inplace=True)
 		print(df.head(10))
-		df.to_csv(path_or_buf=f"../datasets/workouts.csv")
+		df.to_csv(path_or_buf=f"{init_dir}/../datasets/workouts.csv")
 	except KeyError:
 		print(df.head(10))
-		df.to_csv(path_or_buf=f"../datasets/workouts.csv", index=False)
+		df.to_csv(path_or_buf=f"{init_dir}/../datasets/workouts.csv", index=False)
 
 
 if __name__ == "__main__":
 	get_instructors()
 	get_metadata()
 
-	s = requests.Session()
-	payload = {'username_or_email': os.environ.get('EMAIL'), 'password': os.environ.get('PASS')}
-	s.post('https://api.onepeloton.com/auth/login', json=payload)
-	print(s.headers)
+	# s = requests.Session()
+	# payload = {'username_or_email': os.environ.get('EMAIL'), 'password': os.environ.get('PASS')}
+	# s.post('https://api.onepeloton.com/auth/login', json=payload)
+	# print(s.headers)
 
-	get_workouts(s)
+	# get_workouts(s)
