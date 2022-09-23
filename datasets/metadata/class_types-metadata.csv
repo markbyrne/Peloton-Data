@@ -1,0 +1,110 @@
+id,name,display_name,fitness_discipline,is_active,list_order
+127c41262894455686bf11267239ba79,Full Body Stretch,Full Body Stretch,stretching,True,12
+7f4aa2b5b15c4ad5886fc93d8c0694c4,Core Stretch,Core Stretch,stretching,True,13
+34b647095d614f9b8c37b85100db58ce,Upper Body Stretch,Upper Body Stretch,stretching,True,14
+625597385b1040eeb18f8143cc4e5010,Lower Body Stretch,Lower Body Stretch,stretching,True,15
+4617fa18274545bdbceff199b59e9b3d,Foam Rolling,Foam Rolling,stretching,True,16
+736e33ce009b425e81f276cfaf42b5d3,Pre & Post-Ride Stretch,Pre & Post-Ride Stretch,stretching,True,17
+b6885c9659f04a308164d9809bf58acb,Pre & Post-Run Stretch,Pre & Post-Run Stretch,stretching,True,18
+fe97840b3e5647aca9bede207e3b854e,Warm Up Bootcamp,Warm Up,circuit,True,24
+b0a7fc01affb4249aca872a046c6a344,Bodyweight (Bootcamp),Bodyweight,circuit,True,25
+3c65fba3c4a64e2db9a12776e09bc883,Body Focus (Bootcamp),Body Focus,circuit,True,26
+6590f6042e8e4d1d8c2f3f1a73cf1729,Music (Bootcamp),Music,circuit,True,27
+b474dfb4a0774003a4bcca03ba6d2218,Theme (Bootcamp),Theme,circuit,True,28
+209458d0f8c84614aa96537f7fff403f,Low Impact Bootcamp,Low Impact,circuit,True,29
+b70f0feabd7043cfa1c5f7e9f73b43d5,Heart Rate Bootcamp,Heart Rate Zone,circuit,True,30
+c0681493aaeb4029b01f64a6c9ff3e0e,Warm Up/Cool Down Running,Warm Up/Cool Down,running,True,37
+919794060b734915b13ddee4e7e39084,Running Skills,Running Skills,running,True,38
+e2a1f782a89e45abacd962f5aa105990,Intervals Running,Intervals,running,True,39
+19efefbcf7394ff8bac0ac89a674c545,Endurance,Endurance,running,True,40
+a81cd52ccc3140edb1fbf28dbf880791,Speed Running,Speed,running,True,41
+a9456fd677744f2ab9504d4accae96fd,Music (Running),Music,running,True,42
+feda7eed0d8247f2868314eaa74f37fd,Theme Run,Theme,running,True,43
+2fea688d16184033991f99935589717d,Live DJ (Run),Live DJ,running,True,44
+85724534f42b490ca1c4fdd4c4d35cf1,Heart Rate Running,Heart Rate Zone,running,True,45
+a8b4a232401f44d893554787d25d8e1f,Just Run,Just Run,running,False,46
+5fbe0d8811c543729700fe50019b5190,Scenic (Running),Scenic,running,False,47
+a3e500b311a84cb184d9f41a804c81e3,Guided Scenic Running,Guided Scenic Running,running,False,48
+899f05f471cd4509a169aa4253811ffd,Distance Scenic Running,Distance Scenic Running,running,False,49
+ca63751ab3f1430fb31d1d06e5d34804,OUTDOOR Warm Up Cool Down,Warm Up/Cool Down,running,True,60
+23732a102a5f425db1ddaff21e35405e,OUTDOOR Endurance Running,Endurance,running,True,61
+ee0b994867b946728e880e96297a180e,OUTDOOR Intervals Running,Intervals,running,True,62
+db1f7d7342c844a79f2621ab3d4bc183,OUTDOOR Speed Training,Speed,running,True,63
+69c8c93acf3e46b290694e69ca8db450,OUTDOOR Music Run,Music,running,True,64
+3a1057ab8fed477884aaecb01e2ee525,OUTDOOR Theme,Theme,running,True,65
+9dc3be9eaafb476d8853f90cd33e6e04,OUTDOOR Walking,Walking,walking,True,66
+1d943630057b4091af440b6882dfc23c,Podcast,Podcast,walking,True,67
+6d010722eae2493eb93408ba559e7088,OUTDOOR Walk + Run,Walk + Run,walking,False,68
+d501bf75043547218531aff9277c49e3,OUTDOOR Power Walking,Power Walk,walking,False,69
+c9c662562af6401dada7bcc14dbda139,OUTDOOR Walk WU/CD,OUTDOOR Walk WU/CD,walking,False,71
+5ce29a5ff8524bba9132cff42e5cbedd,Warm Up/Cool Down Walking,Warm Up/Cool Down,walking,True,72
+d84d91191eb54d4aa265f82fe3375b92,Music Walk,Music,walking,True,73
+ef02c860363f464391325eec2c8ddae6,Theme (Walking),Theme,walking,True,74
+da49e151806f426090da2004997d3238,Power Walking,Power Walk,walking,True,75
+ca0daca029914c8ba83de0e1543001b3,Hiking Walking,Hiking,walking,True,76
+e65de89202dc4d2f853ded0f4daa7c15,Walk + Run,Walk + Run,walking,True,77
+6c4435c33cf14261ba10587c80baf56e,Peloton Studio Original (Walking),Peloton Studio Original,walking,True,78
+629ab4a9e87a4949aaecf206e2f56552,Guided Scenic Walking,Guided Scenic Walking,walking,False,79
+56c834e143d4423799fc1d3f3fd70ec8,Yoga Flow,Flow,yoga,True,83
+b6faaa4a53eb40d9a536041ae89b45bb,Focus Flow,Focus Flow,yoga,True,84
+358dcbeacd0e4d7db2f563a90677aae0,Slow Flow,Slow Flow,yoga,True,85
+8fe8155b47a64da0a50a0c314fcd393c,Restoration,Restoration,yoga,True,86
+9fa2eb4699a74a169b46cdbbf08d1c34,Theme (Yoga),Theme,yoga,True,87
+9da7b05642d44ec19050fa8bc547ecc9,Yoga Anywhere,Yoga Anywhere,yoga,True,88
+6b0547c130c54f88b1c85b421d53bffa,Yoga Basics,Yoga Basics,yoga,True,89
+190494e7f04f49bc8d10412b081699e3,Family & Pre/Postnatal,Family & Pre/Postnatal,yoga,True,90
+982ccd9a9d28418b8993322f6c67ef82,Beyond the Pose (Yoga),Beyond the Pose,yoga,True,91
+28172f66e4824a8fbd8b756e6c265ff4,Power Yoga,Power,yoga,True,92
+57dbf6f9a4904a9f80e302380855bdb7,Warm Up/Cool Down Ride,Warm Up/Cool Down,cycling,True,101
+9f9be657134e4d868d76ae4988da01f1,Beginner,Beginner,cycling,True,102
+59a49f882ea9475faa3110d50a8fb3f3,Low Impact,Low Impact,cycling,True,103
+c87e20095d80463db5ce04df7fe2b989,Music (Cycling),Music,cycling,True,104
+f10471dcd6a34e5f8ed54eb634b5df19,Theme,Theme,cycling,True,105
+7579b9edbdf9464fa19eb58193897a73,Intervals,Intervals,cycling,True,106
+bf6639f2e50a4f0395cb1479542ed4bd,Climb,Climb,cycling,True,107
+665395ff3abf4081bf315686227d1a51,Power Zone,Power Zone,cycling,True,108
+8c34b36dba084e22b91426621759230d,Heart Rate Zone,Heart Rate Zone,cycling,True,109
+a2ee6b0a98e2431baf60e5261b8605e2,Live DJ,Live DJ,cycling,True,110
+9745b8e2cb274a28b096387073a5d993,Groove,Groove,cycling,True,111
+4228e9e57bf64c518d58a1d0181760c4,Pro Cyclist,Pro Cyclist,cycling,True,112
+b099431b0a964600873699242bd9fb93,Peloton Studio Original (Cycling),Peloton Studio Original,cycling,True,113
+18ab2226a92c40ae89bcc12fefad785a,Pre/Postnatal,Pre/Postnatal,cycling,False,115
+1a87ed4c06a74566ba7a1e4e3d68378b,Just Ride,Just Ride,cycling,False,116
+3e8b662199414382be3f4bed70634f6f,Scenic (Cycling),Scenic,cycling,False,117
+c3a06078c0494e7dbf6bb2d8c6dcfb00,Guided Scenic Cycling,Guided Scenic Cycling,cycling,False,118
+296c44536a3b4238aacfeab4e197eeff,Distance Scenic Cycling,Distance Scenic Cycling,cycling,False,119
+55e65502207e4369bfcf1c7f3ad082e8,Music (Bike Bootcamp),Music,bike_bootcamp,True,121
+826b636b09ba46a5945096ef9bb5ab53,Bodyweight (Bike Bootcamp,Bodyweight,bike_bootcamp,True,122
+194a694693964d4d89a17c49aea9127e,Body Focus (Bike Bootcamp),Body Focus,bike_bootcamp,True,123
+fa0375530a8143cd8c92c0c02670611a,Theme (Bike Bootcamp),Theme,bike_bootcamp,False,124
+42ff0fb62865408bbc07ec09c1176a76,HIIT Cardio Warm Up,Warm Up,cardio,True,125
+07e0a4ce14b745e9a7be6948cece8334,HIIT Cardio,HIIT,cardio,True,126
+34bf618aa3c64be4af4585b7b1658df1,Music (HIIT Cardio),Music HIIT,cardio,True,127
+7761a495d2cb4775b8bb784851d10861,Shadowboxing,Shadowboxing,cardio,True,128
+1fef162e27b4413facff77cc7f766ced,Dance Cardio,Dance Cardio,cardio,True,129
+a5953fd181914f4eb69e755e1fefffce,Family Cardio,Family,cardio,True,130
+88a2c821efd2439a85e03bb45ddb06eb,Strength Warm Up,Warm Up,strength,True,134
+b6d28ceb6d1448b4b9cc6f0bb97dd78f,Bodyweight (Strength & toning),Bodyweight,strength,True,135
+b9022fc339ba4e6b95f19cb395bd6b71,Full Body (Strength & Toning),Full Body,strength,True,136
+3e8ce451d5a64913aed7c5ae2d151030,Core (Strength & Toning),Core,strength,True,137
+d2f2f12b633140079d03291738cec418,Upper Body (strength & toning),Upper Body,strength,True,138
+af137d7195a34e7f96f4d306da554ebd,Lower Body (Strength & Toning),Lower Body,strength,True,139
+c3ad1c11add648d89789eb061d8fabd4,Arms & Light Weights,Arms & Light Weights,strength,True,140
+77a47c85e6a345df9dbd639b347916c5,Strength for Runners,Strength for Runners,strength,True,141
+c394f87aaca547dcade60f754b0341c7,Pre/Postnatal (Strength),Pre/Postnatal,strength,True,142
+6fe9faa5af4f4272a00c9f2c9d797d6b,Resistance Bands,Resistance Bands,strength,True,143
+6f3663cb0c4840f2bd51661695e481d2,Adaptive Strength,Adaptive,strength,True,144
+717e71932a42437f8d837264613fb626,Barre,Barre,strength,True,145
+2374fff64b9f4a4aa381bef9c2f4382c,Pilates,Pilates,strength,True,146
+f865e7f2ca8e4212b2935b2de5071483,Boxing Bootcamp,Boxing Bootcamp,strength,True,147
+0e96bd583efc4c0bb56da2bc5326d447,Floor Bootcamp,Floor Bootcamp,strength,False,148
+24fcd278f49d4f8692879b3dbfa52081,Meditation Basics,Meditation Basics,meditation,True,156
+1fe59d5407c243f987d9050862213835,Relax & Sleep,Relax & Sleep,meditation,True,157
+f4cf26e6059943a0a8e3a6533bb76239,Emotions,Emotions,meditation,True,158
+4b09fff90e954436b189f1e593c5db51,Mindfulness,Mindfulness,meditation,True,159
+33b4257b1b774511945183dbf7cb2db0,Fitness Focus,Fitness Focus,meditation,True,160
+f1bae63c89c144c792dc36e027d470d9,Family & Pre/Postnatal (Meditation),Family & Pre/Postnatal,meditation,True,161
+e5a562d940d54e359ec2026838665dc9,Beyond the Pose (Meditation),Beyond the Pose,meditation,True,162
+6e5950f60b074f3cb8228837662049db,Breathwork,Breathwork,meditation,True,163
+ee52cd1988ca496ab7b130de8ab3d9b2,Zen in Ten,Zen in Ten,meditation,True,164
+d690ffee9e6743a2b3ef5ffc1b490d54,Meditation Anywhere,Meditation Anywhere,meditation,True,165
