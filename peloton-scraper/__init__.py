@@ -128,9 +128,9 @@ if __name__ == "__main__":
 	get_instructors()
 	get_metadata()
 
-	# s = requests.Session()
-	# payload = {'username_or_email': os.environ.get('EMAIL'), 'password': os.environ.get('PASS')}
-	# s.post('https://api.onepeloton.com/auth/login', json=payload)
-	# print(s.headers)
+	s = requests.Session()
+	payload = {'username_or_email': os.environ.get('EMAIL'), 'password': os.environ.get('PASS')}
+	s.post('https://api.onepeloton.com/auth/login', json=payload)
+	print(s.headers)
 
-	# get_workouts(s)
+	get_workouts(s)
