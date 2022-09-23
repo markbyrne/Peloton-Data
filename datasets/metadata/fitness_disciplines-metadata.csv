@@ -1,11 +1,11 @@
 id,name,is_relevant_to_platform
+cycling,Cycling,True
+stretching,Stretching,True
 walking,Walking,True
+yoga,Yoga,True
+running,Running,True
+cardio,Cardio,True
 meditation,Meditation,True
+circuit,Tread Bootcamp,True
 bike_bootcamp,Bike Bootcamp,True
 strength,Strength,True
-cardio,Cardio,True
-yoga,Yoga,True
-stretching,Stretching,True
-cycling,Cycling,True
-running,Running,True
-circuit,Tread Bootcamp,True
