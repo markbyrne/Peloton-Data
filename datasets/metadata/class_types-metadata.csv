@@ -1,4 +1,14 @@
 id,name,display_name,fitness_discipline,is_active,list_order
+43512883a48b4f56aa237643332450ed,DO NOT USE Rowing,Rowing,caesar,True,2
+20e72c34f57345c6b331c1164c2ee7f5,Scenic (Rowing),Scenic,caesar,False,3
+ddf4191d23c6434b9263737e6164e994,Distance Scenic Rowing,Distance Scenic Rowing,caesar,False,4
+d36878d770414e8d9fae6f0fa4b580ce,Body Focus (Row Bootcamp),Body Focus,caesar_bootcamp,True,5
+120f8778e5a04f8da5b7e2eb02a8dce7,Music (Rowing),Music Themed Row,caesar,True,6
+b11c83120c19496d80310bc4d7aa7849,Endurance (Rowing),Endurance,caesar,True,7
+10e246846d2245eb8e26e50f06377e73,Form & Drills (Rowing),Form & Drills,caesar,True,8
+5bb0ac6d147d487eaa1d432e734dc7ee,Beginner (Rowing),Beginner,caesar,True,9
+db88920cc225430f9abc9d807197efb0,Warm Up / Cool Down (Rowing),Warm Up / Cool Down,caesar,True,10
+ae91b1cd94be4f49aa9126a63207391d,Intervals (Rowing),Intervals,caesar,True,11
 127c41262894455686bf11267239ba79,Full Body Stretch,Full Body Stretch,stretching,True,12
 7f4aa2b5b15c4ad5886fc93d8c0694c4,Core Stretch,Core Stretch,stretching,True,13
 34b647095d614f9b8c37b85100db58ce,Upper Body Stretch,Upper Body Stretch,stretching,True,14
@@ -6,6 +16,7 @@ id,name,display_name,fitness_discipline,is_active,list_order
 4617fa18274545bdbceff199b59e9b3d,Foam Rolling,Foam Rolling,stretching,True,16
 736e33ce009b425e81f276cfaf42b5d3,Pre & Post-Ride Stretch,Pre & Post-Ride Stretch,stretching,True,17
 b6885c9659f04a308164d9809bf58acb,Pre & Post-Run Stretch,Pre & Post-Run Stretch,stretching,True,18
+769aa55ee4f64bf2a879e8b737f122ab,Pre & Post-Row Stretch (Rowing),Pre & Post-Row Stretch,stretching,True,21
 fe97840b3e5647aca9bede207e3b854e,Warm Up Bootcamp,Warm Up,circuit,True,25
 b0a7fc01affb4249aca872a046c6a344,Bodyweight (Bootcamp),Bodyweight,circuit,True,26
 3c65fba3c4a64e2db9a12776e09bc883,Body Focus (Bootcamp),Body Focus,circuit,True,27
@@ -29,15 +40,15 @@ a3e500b311a84cb184d9f41a804c81e3,Guided Scenic Running,Guided Scenic Running,run
 ca63751ab3f1430fb31d1d06e5d34804,OUTDOOR Warm Up Cool Down,Warm Up/Cool Down,running,True,61
 23732a102a5f425db1ddaff21e35405e,OUTDOOR Endurance Running,Endurance,running,True,62
 ee0b994867b946728e880e96297a180e,OUTDOOR Intervals Running,Intervals,running,True,63
-db1f7d7342c844a79f2621ab3d4bc183,OUTDOOR Speed Training,Speed,running,True,64
-69c8c93acf3e46b290694e69ca8db450,OUTDOOR Music Run,Music,running,True,65
-3a1057ab8fed477884aaecb01e2ee525,OUTDOOR Theme,Theme,running,True,66
-9dc3be9eaafb476d8853f90cd33e6e04,OUTDOOR Walking,Walking,walking,True,67
-1d943630057b4091af440b6882dfc23c,Podcast,Podcast,walking,True,68
-6d010722eae2493eb93408ba559e7088,OUTDOOR Walk + Run,Walk + Run,walking,False,69
+69c8c93acf3e46b290694e69ca8db450,OUTDOOR Music Run,Music,running,True,64
+3a1057ab8fed477884aaecb01e2ee525,OUTDOOR Theme,Theme,running,True,65
+db1f7d7342c844a79f2621ab3d4bc183,OUTDOOR Speed Training,Speed,running,True,66
+c9c662562af6401dada7bcc14dbda139,OUTDOOR Walk WU/CD,OUTDOOR Walk WU/CD,walking,False,67
+6d010722eae2493eb93408ba559e7088,OUTDOOR Walk + Run,Walk + Run,walking,False,68
+9dc3be9eaafb476d8853f90cd33e6e04,OUTDOOR Walking,Walking,walking,True,69
 d501bf75043547218531aff9277c49e3,OUTDOOR Power Walking,Power Walk,walking,False,70
-c9c662562af6401dada7bcc14dbda139,OUTDOOR Walk WU/CD,OUTDOOR Walk WU/CD,walking,False,72
-5ce29a5ff8524bba9132cff42e5cbedd,Warm Up/Cool Down Walking,Warm Up/Cool Down,walking,True,73
+5ce29a5ff8524bba9132cff42e5cbedd,Warm Up/Cool Down Walking,Warm Up/Cool Down,walking,True,72
+1d943630057b4091af440b6882dfc23c,Podcast,Podcast,walking,True,73
 d84d91191eb54d4aa265f82fe3375b92,Music Walk,Music,walking,True,74
 ef02c860363f464391325eec2c8ddae6,Theme (Walking),Theme,walking,True,75
 da49e151806f426090da2004997d3238,Power Walking,Power Walk,walking,True,76
