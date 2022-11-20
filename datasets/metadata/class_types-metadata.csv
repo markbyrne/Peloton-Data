@@ -1,13 +1,14 @@
 id,name,display_name,fitness_discipline,is_active,list_order
-549c5462a467490aa85fd10aafaf5d48,Music Theme (Row Bootcamp),Music,caesar_bootcamp,True,1
+549c5462a467490aa85fd10aafaf5d48,Music/Theme Row Bootcamp,Music/Theme ,caesar_bootcamp,True,1
+43512883a48b4f56aa237643332450ed,Rowing (Pace Targets) ,Rowing,caesar,False,3
 20e72c34f57345c6b331c1164c2ee7f5,Scenic (Rowing),Scenic,caesar,False,4
 ddf4191d23c6434b9263737e6164e994,Distance Scenic Rowing,Distance Scenic Rowing,caesar,False,5
 d36878d770414e8d9fae6f0fa4b580ce,Body Focus (Row Bootcamp),Body Focus,caesar_bootcamp,True,6
-120f8778e5a04f8da5b7e2eb02a8dce7,Music (Rowing),Music,caesar,True,7
-b11c83120c19496d80310bc4d7aa7849,Endurance (Rowing),Endurance,caesar,True,8
+db88920cc225430f9abc9d807197efb0,Warm Up / Cool Down (Rowing),Warm Up / Cool Down,caesar,True,7
+5bb0ac6d147d487eaa1d432e734dc7ee,Beginner (Rowing),Beginner,caesar,True,8
 10e246846d2245eb8e26e50f06377e73,Form & Drills (Rowing),Form & Drills,caesar,True,9
-5bb0ac6d147d487eaa1d432e734dc7ee,Beginner (Rowing),Beginner,caesar,True,10
-db88920cc225430f9abc9d807197efb0,Warm Up / Cool Down (Rowing),Warm Up / Cool Down,caesar,True,11
+120f8778e5a04f8da5b7e2eb02a8dce7,Music / Theme (Rowing),Music / Theme (Rowing),caesar,True,10
+b11c83120c19496d80310bc4d7aa7849,Endurance (Rowing),Endurance,caesar,True,11
 ae91b1cd94be4f49aa9126a63207391d,Intervals (Rowing),Intervals,caesar,True,12
 127c41262894455686bf11267239ba79,Full Body Stretch,Full Body Stretch,stretching,True,13
 7f4aa2b5b15c4ad5886fc93d8c0694c4,Core Stretch,Core Stretch,stretching,True,14
