@@ -1,13 +1,13 @@
 id,name,is_relevant_to_platform
-stretching,Stretching,True
-bike_bootcamp,Bike Bootcamp,True
-meditation,Meditation,True
-cardio,Cardio,True
+strength,Strength,True
 caesar,Rowing,True
-cycling,Cycling,True
+meditation,Meditation,True
+yoga,Yoga,True
+circuit,Tread Bootcamp,True
+stretching,Stretching,True
+cardio,Cardio,True
+caesar_bootcamp,Row Bootcamp,True
 walking,Walking,True
 running,Running,True
-yoga,Yoga,True
-strength,Strength,True
-circuit,Tread Bootcamp,True
-caesar_bootcamp,Row Bootcamp,True
+cycling,Cycling,True
+bike_bootcamp,Bike Bootcamp,True
